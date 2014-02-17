@@ -1,0 +1,26 @@
+Mojolicious-Plugin-UrlToken version 0.0.1
+
+This module provides a helper generate_url_token that creates a unique token for use in email validation
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+DEPENDENCIES
+
+Mojolicious
+Data::UUID
+MIME::Base64::URLSafe
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2014, Tyson Maly
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
